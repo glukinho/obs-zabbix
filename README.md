@@ -12,7 +12,7 @@ Pre-requisites:
 
 How to:
 1. Import the `obs-zabbix.py` to OBS (Tools - Scripts)
-2. Write your appropriate settings:
+2. Write your appropriate settings: https://prnt.sc/vkzqv4
   * Path to `zabbix-sender.exe` on OBS PC
   * Zabbix server hostname or IP
   * Name of the host inside Zabbix server (most probably hostname of the PC with OBS)
