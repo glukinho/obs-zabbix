@@ -12,10 +12,10 @@ Pre-requisites:
 
 How to:
 1. Import the `obs-zabbix.py` to OBS (Tools - Scripts)
-1. Write your appropriate settings:
+2. Write your appropriate settings:
   * Path to `zabbix-sender.exe` on OBS PC
   * Zabbix server hostname or IP
   * Name of the host inside Zabbix server (most probably hostname of the PC with OBS)
   * how often OBS will send status to Zabbix, in seconds
   * Zabbix key that will receive data (do not touch if unsure)
-1. If everything is OK, you will see some logs in Script Log window and JSON data in Zabbix server: https://prnt.sc/vkzp68
+3. If everything is OK, you will see some logs in Script Log window and JSON data in Zabbix server: https://prnt.sc/vkzp68
