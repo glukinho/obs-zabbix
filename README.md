@@ -19,3 +19,8 @@ How to:
   * how often OBS will send status to Zabbix, in seconds
   * Zabbix key that will receive data (do not touch if unsure)
 3. If everything is OK, you will see some logs in Script Log window and JSON data in Zabbix server: https://prnt.sc/vkzp68
+
+Zabbix rises trigger in cases:
+  * recording status != true
+  * streaming status != true
+  * no data for `{$OBS_NODATA}` time (update your host or template, default is 1m)
