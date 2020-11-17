@@ -23,4 +23,4 @@ How to:
 Zabbix rises trigger in cases:
   * recording status != true
   * streaming status != true
-  * no data for `{$OBS_NODATA}` time (update your host or template, default is 1m)
+  * no data for `{$OBS_NODATA}` time (update your host or template macros, default is 1m)
