@@ -4,7 +4,7 @@ Python script for sending OBS recording/scripting status to Zabbix. Uses zabbix-
 Based on MQTT script: https://obsproject.com/forum/resources/real-time-mqtt-status.1014/
 
 Pre-requisites:
-* OBS installed (tested on 26.0.2 x64)
+* OBS installed (tested on 26.0.2 x64, Windows 10 Pro 1909 x64)
 * Python 3.6 installed (tested on 3.6.8 x64 portable)
 * Python can see obspython module (you can find it inside OBS installation folder, just put two files to Python folder: https://prnt.sc/vkzuer)
 * `zabbix-sender.exe` somewhere on PC with OBS (download here: https://www.zabbix.com/ru/download_agents)
